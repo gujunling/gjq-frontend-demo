@@ -1,0 +1,65 @@
+{
+  "name": "gjq-frontend-demo",
+  "version": "0.1.0",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "element-ui": "^2.14.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0",
+    "@devops/bk-magic-vue":"3.0.1-beta.0",
+    "@devops/cherry-markdown": "^0.8.12",
+    "@devops/webpack-i18n-plugin-plus": "^2.0.5",
+    "@devops/bkui-pipeline": "^0.1.76-11",
+    "@devops/cli": "^1.0.6",
+    "@devops/devops-husky": "^1.3.3",
+    "@devops/elp-cascader": "^0.2.3",
+    "@devops/empty": "^1.0.0",
+    "@devops/google-translate-api": "^1.0.1",
+    "@devops/popover-menu": "^1.0.0",
+    "@devops/svg-icon": "^1.0.0",
+    "@devops/toolbox": "^1.0.0",
+    "@devops/upload-dialog": "^1.0.1",
+    "@devops/vite-svg-to-sprite": "^1.0.0",
+    "@devops/vue-tree": "^1.0.4",
+    "@devops/webpack-i18n-plugin": "^0.9.6",
+    "@devops/widget": "^0.6.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
